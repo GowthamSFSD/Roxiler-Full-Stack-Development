@@ -1,0 +1,46 @@
+.pie-container {
+    background-color: #f4f7f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-container h1 {
+    color: #474444;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.pie-container h1 span {
+    color: #FF5733;
+}
+
+.pie-loading-container {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-animation {
+    border: 6px solid #d821c3;
+    border-left-color: #a3ccec;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

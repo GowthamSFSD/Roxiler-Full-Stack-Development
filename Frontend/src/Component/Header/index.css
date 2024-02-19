@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    background-color: #fcfffd;
+    padding: 10px 0;
+
+}
+
+.responsive-header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.company-logo {
+    height: 35px;
+    width: 120px;
+}
+
+.select {
+    height: 35px;
+    width: 120px;
+    outline: none;
+    padding: 7px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #4d50f7;
+    color: #b1e7bd;
+    font-weight: 600;
+    margin-right: 50px;
+    cursor: pointer;
+}

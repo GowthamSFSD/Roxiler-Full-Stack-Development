@@ -1,0 +1,26 @@
+td {
+    padding: 12px;
+    text-align: left;
+    border: 2px solid #4d50f7;
+
+}
+
+
+td img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px #fff;
+
+}
+
+.sold-color {
+    color: #2eb017;
+    font-weight: bold;
+}
+
+
+.not-sold {
+    color: #FF5733;
+    font-weight: 500;
+}

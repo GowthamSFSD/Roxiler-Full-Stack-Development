@@ -1,0 +1,60 @@
+.statistics-container {
+    min-height: 100vh;
+    background-color: #f4f7f9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.state-content {
+    margin-top: 50px;
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.heading-transaction-state {
+    color: #216d8b;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.sales {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.heading-transaction-state span {
+    color: #eec613;
+}
+
+.statistics-loading-container {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-animation {
+    border: 6px solid #d821c3;
+    border-left-color: #a3ccec;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

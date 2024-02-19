@@ -1,0 +1,156 @@
+.main-container {
+    padding-top: 55px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ef068;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.heading-container h1 {
+    font-size: 17px;
+    text-align: center;
+    color: #FF5733;
+    font-weight: bold;
+}
+
+.input-month-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.input-month-responsive-container {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="search"] {
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2B81F5;
+    color: #f2eeee;
+    font-weight: bold;
+    padding: 5px;
+    outline: none;
+    font-size: 15px;
+}
+
+input[type="search"]::placeholder {
+    color: #b1e7bd;
+    padding-left: 7px;
+}
+
+.name-month {
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #2B81F5;
+    color: #f2eeee;
+    font-weight: bold;
+    cursor: context-menu;
+    font-size: 22px;
+}
+
+.loading-container {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-animation {
+    border: 6px solid #d821c3;
+    border-left-color: #a3ccec;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #ecdfe2;
+}
+
+th {
+    padding: 12px;
+    text-align: center;
+    border: 2px solid #4d50f7;
+}
+
+.bottom-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.button {
+    padding: 4px 15px;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #4d50f7;
+    color: #b1e7bd;
+    font-weight: 600;
+    text-align: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.page-no {
+    font-weight: bold;
+}
+
+.per-page {
+    font-weight: bold;
+}
+
+.per-page-select {
+    padding: 4px 5px;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #4d50f7;
+    color: #b1e7bd;
+    font-weight: 600;
+    text-align: center;
+    outline: none;
+    border: none;
+}
